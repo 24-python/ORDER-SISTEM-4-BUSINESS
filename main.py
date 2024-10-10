@@ -62,8 +62,8 @@ order_details_entry.pack()
 add_button = tk.Button(app, text="Добавить заказ", command=add_order)
 add_button.pack()
 
-complete_buttuon = tk.Button(app, text="Завершить заказ", command=complete_order)
-complete_buttun.pack()
+complete_button = tk.Button(app, text="Завершить заказ", command=complete_order)
+complete_button.pack()
 
 columns = ("id", "customer_name", "order_details", "status")
 tree = ttk.Treeview(app, columns=columns, show="headings")
